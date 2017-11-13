@@ -1,0 +1,29 @@
+html.Type {
+    font-family: sans-serif;
+    font-size: 0.6em;
+}
+.Type--uppercase {
+    text-transform: uppercase;
+}
+.Type--thin {
+    font-weight: 100;
+}
+.Type--heading {
+    font-weight: 100;
+    font-style: italic;
+}
+.Type--heading--sm {
+    font-size: 0.875em;
+}
+.Type--heading--md {
+    font-size: 1.5em;
+}
+.Type--heading--lg {
+    font-size: 2.25em;
+}
+.Type--heading--x-lg {
+    font-size: 3em;
+}
+.Type--subHeading {
+
+}

@@ -1,0 +1,11 @@
+html.Theme--green .Page-header {
+    background-color: navy;
+    color: white;
+}
+html.Theme--green .Type--heading {
+    color: darkgreen;
+}
+html.Theme--yellow .Page-header {
+    background-color: darkgreen;
+    color: yellow;
+}
