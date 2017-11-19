@@ -1,0 +1,21 @@
+main {
+    min-height: 1000px;
+}
+
+li:nth-child(3) {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+li:nth-child(5) {
+    position: fixed;
+    top: 10%;
+    right: 0;
+}
+
+li:nth-child(8) {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+}

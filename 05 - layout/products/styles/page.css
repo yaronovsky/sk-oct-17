@@ -1,0 +1,30 @@
+.Page {
+    padding: 0;
+    width: 90%;
+    max-width: 980px;
+}
+
+@supports (display: grid) {
+    @media (min-width: 1000px) {
+        .Page {
+            display: grid;
+            grid-template:
+                "header header" 20%
+                "main aside" 1fr
+                / 80% 1fr;
+            grid-gap: var(--space);
+        }
+
+        .Page-header {
+            grid-area: header;
+        }
+
+        .Page-main {
+            grid-area: main;
+        }
+
+        .Page-aside {
+            grid-area: aside;
+        }
+    }
+}
