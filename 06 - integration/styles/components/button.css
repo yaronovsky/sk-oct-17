@@ -1,0 +1,49 @@
+a.Button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+button.Button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.Button {
+    background-color: darkseagreen;
+    text-shadow: 0.6px 0.6px limegreen;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.Button.Button--primary {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.Button.Button--danger {
+    background-color: indianred;
+    color: white;
+}
+
+Button.icon {}
+
+.Button:hover {
+    background-color: gold;
+}
+
+.Button:focus {
+    border: 3px solid;
+    border-color: royalblue;
+    padding: 1em;
+}
+
+.Button:active {
+    background-color: rebeccapurple;
+}
+
+.Button:disabled {
+    background-color: black;
+}

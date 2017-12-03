@@ -1,0 +1,21 @@
+.Items{
+    list-style-type: none;
+}
+.Item.Item--decoration{
+    border:2px solid silver;
+    margin: 0.2em;
+}
+
+.Items.u-grid3col{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.Items--elipsis{
+    margin:0;
+    width : 100px;
+    overflow:hidden;
+    display:inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

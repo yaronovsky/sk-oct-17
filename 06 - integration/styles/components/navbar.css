@@ -1,0 +1,55 @@
+.Navbar {
+    grid-area: nav;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.Navbar li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Navbar ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+}
+
+.Navbar-menu {
+    display: flex;
+    justify-content: flex-start;
+    background: whitesmoke;
+}
+
+.NavItem a {
+    padding: 0.5em;
+}
+
+.NavItem {
+    border-left: 1px solid black;
+    position: relative;
+}
+
+.NavItem:last-child {
+    border-right: 1px solid black;
+}
+
+.NavItem-submenu {
+    position: absolute;
+    left: -1px;
+    opacity: 0;
+    transition: all 0.4s ease;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    pointer-events: none;
+    z-index: 1;
+    background: whitesmoke;
+    border-top: 1px solid black;
+    top: auto;
+}
+
+.NavItem:hover .NavItem-submenu {
+    opacity: 1;
+    pointer-events: initial;
+}
